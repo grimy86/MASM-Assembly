@@ -83,4 +83,4 @@ It only sets flags based on the comparison.
 
 
 ## Condtional jump instructions
-![alt text](Info\Images\Jump_conditions.png)
+![alt text](/Info/Images/Jump_conditions.png)
