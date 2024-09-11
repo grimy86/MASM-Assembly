@@ -8,8 +8,10 @@ include \masm32\include\user32.inc
 includelib \masm32\lib\kernel32.lib
 includelib \masm32\lib\user32.lib
 
+
 .data
-msg db "Hello, World!d", 0
+msg db "Hello, World!", 0
+
 
 .code
 start:

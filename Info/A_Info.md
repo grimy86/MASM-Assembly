@@ -2,19 +2,22 @@
 !IMPORTANT --> MASM32 LOCATION: C:\masm32
 
 
-# Words
-- Word: a 2-byte data item
-- Doubleword: a 4-byte (32 bit) data item
-- Quadword: an 8-byte (64 bit) data item
+# Sizes / Words
+- BYTE: 1 byte
+- WORD: 2 bytes
+- DWORD: 4 bytes
+- QWORD: 8 bytes
 - Paragraph: a 16-byte (128 bit) area
 - Kilobyte: 1024 bytes
 - Megabyte: 1,048,576 bytes
 
 
 # Bits
+```
 Bit value:	                            1	1	1	1	1	1	1	1
 Bit number:	                            7	6	5	4	3	2	1	0
 Position value as a power of base 2:    128	64	32	16	8	4	2	1
+```
 
 
 # Hex
