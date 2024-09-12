@@ -13,12 +13,11 @@ The stack segment refers to the physical region of memory that is allocated for 
 
 
 ## A stack frame
-A stack frame is an individual block of data on the call stack that is created when a function is called.
-It holds all the necessary information for a specific function call, including:
-- The address of the instruction beyond the function call (called the return address). This is how the CPU remembers where to return to after   the called function exits.
+A stack frame is an individual block of data on the call stack that is created when a function is called. Stack frames are not pushed or popped, they are not a "real" thing. The stack frame is simply some specific range of memory that we can put into context with a specific function. It holds all the necessary information for a specific function call, including:
+- The address of the instruction beyond the function call (called the return address). This is how the program remembers where to return to after the called function exits.
 - All function arguments
 - Memory for any local variables
-- Saved copies of any registers modified by the function that need to be restored when the function returns (EBP)
+- Saved copies of any registers modified by the function that need to be restored when the function returns (E.g. EBP)
 
 
 ## The call stack in action
@@ -26,15 +25,15 @@ It holds all the necessary information for a specific function call, including:
 Here is the sequence of steps that takes place when a function is called:
 
 1. The program encounters a function call.
-2. A stack frame is constructed and pushed on the stack.
-3. The CPU jumps to the function’s start point.
+2. The CPU jumps to the function’s start point.
+3. Push local variables and arguments.
 4. The instructions inside of the function begin executing.
 
 ### Epilogue
 When the function terminates, the following steps happen:
 
 5. Registers are restored from the call stack
-6. The stack frame is popped off the stack. This frees the memory for all local variables and arguments.
+6. Free the memory for all local variables and arguments.
 7. The return value is handled.
 8. The CPU resumes execution at the return address.
 
