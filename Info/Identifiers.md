@@ -3,5 +3,5 @@
 - start with: A-Z / a-z / _ / @ / ? / $
 - cannot start with a number
 
-# Example
+## Example
 Var21, x20, _hello, ASPIRE, etc.

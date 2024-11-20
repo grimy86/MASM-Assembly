@@ -12,7 +12,7 @@
 Note: labels and comments are optional
 
 
-# Example
+## Example
 ```
 LabelName:
     mov eax, 10

@@ -7,5 +7,5 @@ d - Dec
 b - Bin
 
 
-Examples:
+## Example
 30d, 6Ah, 42, 1101b
