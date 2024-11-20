@@ -16,8 +16,10 @@ diff_msg db "The strings are different.", 0
 
 execute_path db "C:\Windows\system32\calc.exe", 0
 
+
 .code
 start:
+
 COMMENT*
     Invoke is just another way of pushing and calling (not recommended).
     Note: Using invoke with 2 or more parameters we want to push the first parameter as the last one.

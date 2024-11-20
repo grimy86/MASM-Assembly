@@ -1,6 +1,6 @@
 # Reserved words
 Instruction mnemonics:
-mov, cmp, jmp, add, sub, inc, dec, lea, etc.
+`mov, cmp, jmp, add, sub, inc, dec, lea`, etc.
 
 
 ## Directives
