@@ -1,4 +1,7 @@
 # Instructions
+> [!NOTE]
+> It's important to know that you can't study all instructions. Use an [x86 instruction reference](https://www.felixcloutier.com/x86/) instead.
+
 - They are executable statements
 - Translated to machine language
 - Executed at runtime

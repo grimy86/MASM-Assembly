@@ -1,7 +1,10 @@
 # Declaring variables
-Declare variables in the .data section
+Declare variables in the .data section. The 'd' stands for defined / declared. So db is a defined or declared byte.
 
-They can be a:
-- declared byte: **db**
-- declared word: **dw**
-- declared dword: **dd**
+| type  | size      |
+|-------|-----------|
+| db    | 1 byte    |
+| dw    | 2 bytes   |
+| dd    | 4 bytes   |
+| dq    | 8 bytes   |
+| dt    | 10 bytes  |

@@ -2,3 +2,5 @@ console.obj
 console.exe
 hello_world.obj
 hello_world.exe
+hello_world_nasm.exe
+hello_world_nasm.obj
