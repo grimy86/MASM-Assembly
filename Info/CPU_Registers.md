@@ -1,5 +1,5 @@
 # Registers
-There are 8 common registers in assembly and 6 are used for general purpose.
+Registers are for storing data. There are 8 common registers in assembly and 6 are used for general purpose.
 In general you could use these registers in whatever way you like but there are common conventions.
 
 ## General purpose

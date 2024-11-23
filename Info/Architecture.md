@@ -1,4 +1,4 @@
-# x86 Architecture basics
+# x86 Architecture
 ## Components
 - CPU
   - ALU
@@ -23,7 +23,7 @@ Busses allow us to communicate between different pieces of hardware that work on
 
 ### Instruction execution cycle
 - The CPU completes a predefined set of steps to execute an instruction. This is called the **fetch, decode & execute** procedure.
-  1. Fetch an instruction from the instruction queue
+  1. Fetch an instruction (in memory) from the instruction queue
   2. Decode the instruction and check for operands
   3. If operands are involved, fetch the operands from memory / registers
   4. Execute the instruction and update status flags
@@ -45,3 +45,7 @@ Busses allow us to communicate between different pieces of hardware that work on
 X86 Caches:
 - Level-1 (**L1**): stored on the CPU
 - Level-2 (**L2**): stored outside and accessed by high-speed data bus
+
+### Addresses
+- Absolute address: a direct reference of specific location.
+- Segment address (or offset): starting address of a memory segment with the offset value.

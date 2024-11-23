@@ -7,3 +7,5 @@ ZF  -   Zero Flag
 AC  -   Auxiliary Carry
 PF  -   Parity Flag
 ```
+
+![alt text](image.png)
