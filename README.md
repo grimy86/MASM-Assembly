@@ -2,11 +2,11 @@
 > [!IMPORTANT]
 > Some of the references / material are for the MASM32 SDK and some are for NASM.
 
-> [!NOTE] MASM32 reference
+> [!NOTE]
 > See [MASM reference](https://learn.microsoft.com/en-us/cpp/assembler/masm/microsoft-macro-assembler-reference?view=msvc-170) for more information on x86 assembly in MASM32.
 
 
-> [!NOTE] Building & Compiling
+> [!NOTE]
 > To compile NASM on windows download [NASM](https://www.nasm.us/) & [w64devkit-x86](https://github.com/skeeto/w64devkit/releases/tag/v2.0.0). MASM32 is located at C:\masm32 by default.
 > 
 > Use NASM to assemble the .asm file into an object file (.obj). Run this command in the same directory where the .asm file is located:
