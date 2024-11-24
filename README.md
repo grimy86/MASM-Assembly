@@ -23,8 +23,9 @@
 4. [E Flags](/Info/E_Flags.md)
 5. [Word Sizes](/Info/Sizes.md)
 6. [The Stack](/Info/Call_Stack.md)
-7. [Directives](/Info/Directives.md)
-8. [Instructions](/Info/Instructions.md)
+7. [Calling Conventions](/Info/Calling_Conventions.md)
+8. [Directives](/Info/Directives.md)
+9. [Instructions](/Info/Instructions.md)
 
 # x86 Syntax
 1. [Directives](/Info/Directives.md)

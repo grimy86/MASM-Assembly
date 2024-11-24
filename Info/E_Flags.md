@@ -8,4 +8,4 @@ AC  -   Auxiliary Carry
 PF  -   Parity Flag
 ```
 
-![alt text](image.png)
+![E Flags](/Info/Images/eflags.png)
