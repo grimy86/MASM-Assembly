@@ -1,10 +1,10 @@
 # Notes
 > [!IMPORTANT]
 > Some of the references / material are for the MASM32 SDK and some are for NASM.
-
-> [!NOTE]
-> See [MASM reference](https://learn.microsoft.com/en-us/cpp/assembler/masm/microsoft-macro-assembler-reference?view=msvc-170) for more information on x86 assembly in MASM32.
-
+>
+> [Example masm program](hello_world.asm)
+>
+> [Example nasm program](hello_world_nasm.asm)
 
 > [!NOTE]
 > To compile NASM on windows download [NASM](https://www.nasm.us/) & [w64devkit-x86](https://github.com/skeeto/w64devkit/releases/tag/v2.0.0). MASM32 is located at C:\masm32 by default.
@@ -14,7 +14,6 @@
 >
 > Use GCC to link the .obj file and create the final executable (.exe). Run this command:
 > ```gcc -mconsole -nostartfiles -o fileName.exe fileName.obj```
-
 
 # x86 Architecture
 1. [x86 Architecture](/Info/Architecture.md)
@@ -36,3 +35,9 @@
 6. [Identifiers](/Info/Identifiers.md)
 7. [Declaring variables](/Info/Declaring_Variables.md)
 8. [Operator presedence](/Info/Operator_Presedence.md)
+
+> [!NOTE]
+> See [MASM reference](https://learn.microsoft.com/en-us/cpp/assembler/masm/microsoft-macro-assembler-reference?view=msvc-170) for more information on x86 assembly in MASM32.
+>
+> See [x86 and amd64 instruction reference
+](https://www.felixcloutier.com/x86/) for more information on x86 instructions.
