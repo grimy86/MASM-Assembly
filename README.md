@@ -7,7 +7,7 @@
 > [Example nasm program](hello_world_nasm.asm)
 
 > [!NOTE]
-> To compile NASM on windows download [NASM](https://www.nasm.us/) & [w64devkit-x86](https://github.com/skeeto/w64devkit/releases/tag/v2.0.0). MASM32 is located at C:\masm32 by default.
+> To compile NASM on windows download [NASM](https://www.nasm.us/) & [w64devkit-x86](https://github.com/skeeto/w64devkit/releases/tag/v2.0.0).
 > 
 > Use NASM to assemble the .asm file into an object file (.obj). Run this command in the same directory where the .asm file is located:
 > ```nasm -f win32 -o fileName.obj fileName.asm```
